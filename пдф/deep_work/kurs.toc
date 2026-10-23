@@ -1,0 +1,27 @@
+\babel@toc {russian}{}\relax 
+\contentsline {section}{Введение}{2}{section*.2}%
+\contentsline {section}{\numberline {1}Основные понятия и определения}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Несобственные интегралы I рода (бесконечные пределы интегрирования)}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Несобственные интегралы II рода (особенность на конечном промежутке)}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Абсолютная и условная сходимость}{4}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Признаки сходимости несобственных интегралов}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Интегральный признак Коши и критерий для неотрицательных функций}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Признаки сравнения}{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Признаки Дирихле и Абеля}{5}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Критерий Коши сходимости несобственного интеграла}{6}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Эквивалентные преобразования подынтегральной функции}{6}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Методы вычисления несобственных интегралов}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Интегрирование по частям и замена переменной}{7}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Вычисление через пределы}{7}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Использование специальных функций}{8}{subsection.3.3}%
+\contentsline {paragraph}{Гамма-функция Эйлера.}{8}{section*.3}%
+\contentsline {paragraph}{Интеграл вероятностей.}{8}{section*.4}%
+\contentsline {subsection}{\numberline {3.4}Метод дифференцирования по параметру}{8}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Примеры исследования и вычисления несобственных интегралов}{9}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Интеграл Пуассона}{9}{subsection.4.1}%
+\contentsline {paragraph}{Способ 1 (двойной интеграл и полярные координаты).}{9}{section*.5}%
+\contentsline {paragraph}{Способ 2 (гамма-функция).}{9}{section*.6}%
+\contentsline {subsection}{\numberline {4.2}Интеграл Дирихле}{9}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Интегралы Френеля}{10}{subsection.4.3}%
+\contentsline {section}{Заключение}{10}{section*.7}%
+\contentsline {section}{Список литературы}{10}{section*.8}%

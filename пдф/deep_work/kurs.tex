@@ -1,0 +1,507 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage[russian]{babel}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{geometry}
+\geometry{left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm}
+\usepackage{indentfirst}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkcolor=blue, urlcolor=blue}
+
+% --- Окружения ---
+\newtheorem{theorem}{Теорема}[section]
+\newtheorem{lemma}[theorem]{Лемма}
+\newtheorem{corollary}[theorem]{Следствие}
+\newtheorem{proposition}[theorem]{Утверждение}
+\theoremstyle{definition}
+\newtheorem{definition}{Определение}[section]
+\newtheorem{example}{Пример}[section]
+\newtheorem{remark}{Замечание}[section]
+
+% --- Обозначения ---
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\dd}{\,\mathrm{d}}
+\newcommand{\eps}{\varepsilon}
+\DeclareMathOperator{\sgn}{sgn}
+\DeclareMathOperator{\const}{const}
+
+\title{Сходимость несобственных интегралов:\\ признаки, методы исследования и приложения}
+\author{Студент: \underline{\hspace{5cm}}\\ Научный руководитель: \underline{\hspace{5cm}}}
+\date{Москва, 2025}
+
+\begin{document}
+
+% ===================== ТИТУЛЬНЫЙ ЛИСТ =====================
+\begin{titlepage}
+\centering
+{\large МИНИСТЕРСТВО НАУКИ И ВЫСШЕГО ОБРАЗОВАНИЯ\\ РОССИЙСКОЙ ФЕДЕРАЦИИ}
+\vspace{1cm}
+{\large \underline{\hspace{10cm}}\\ Кафедра математического анализа}
+\vspace{3cm}
+{\Large\bfseries КУРСОВАЯ РАБОТА}
+\vspace{0.7cm}
+{\large по математическому анализу}
+\vspace{1.5cm}
+{\Large\bfseries Сходимость несобственных интегралов:\\ признаки, методы исследования и приложения}
+\vspace{3cm}
+\begin{flushright}
+\begin{tabular}{l}
+Выполнил: студент группы \underline{\hspace{2cm}}\\
+\underline{\hspace{5cm}}\\[0.3cm]
+Научный руководитель:\\
+\underline{\hspace{5cm}}
+\end{tabular}
+\end{flushright}
+\vfill
+{\large Москва\\ 2025}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+
+% ===================== ВВЕДЕНИЕ =====================
+\section*{Введение}
+\addcontentsline{toc}{section}{Введение}
+
+Понятие определённого интеграла Римана предполагает, что промежуток интегрирования конечен, а подынтегральная функция ограничена. Однако многие задачи анализа, физики, теории вероятностей и техники приводят к интегралам, у которых одно из этих условий нарушено: промежуток интегрирования простирается до бесконечности либо подынтегральная функция неограниченно возрастает в окрестности некоторой точки. Такие интегралы называются \emph{несобственными}.
+
+Несобственные интегралы играют фундаментальную роль в анализе. Через них выражаются важнейшие специальные функции: гамма-функция Эйлера, интеграл вероятностей, интегральный синус и косинус, интегралы Френеля, эллиптические интегралы. В теории вероятностей интеграл Пуассона $\int_{-\infty}^{+\infty} e^{-x^2}\,dx = \sqrt{\pi}$ лежит в основе нормального распределения. В физике несобственные интегралы возникают при вычислении работы в поле тяготения, потока тепла, дифракции Френеля.
+
+Возникает естественный вопрос: как узнать, сходится ли данный несобственный интеграл, не вычисляя его? Ответ на него дают \emph{признаки сходимости} — теоремы, позволяющие судить о сходимости по поведению подынтегральной функции. Именно эта задача и составляет основное содержание настоящей работы.
+
+\textbf{Цель работы} — систематизация признаков сходимости несобственных интегралов, освоение методов их исследования и вычисления, а также разбор содержательных примеров.
+
+\textbf{Задачи:}
+\begin{enumerate}[label=\arabic*.]
+\item Дать определение несобственных интегралов I и II рода.
+\item Сформулировать и доказать основные признаки сходимости (критерий для неотрицательных функций, признаки сравнения, Дирихле и Абеля, критерий Коши).
+\item Изучить методы вычисления несобственных интегралов, включая сведение к специальным функциям.
+\item Разобрать примеры, в том числе примеры условно сходящихся интегралов.
+\end{enumerate}
+
+Изложение опирается на классические учебники Г.~М.~Фихтенгольца \cite{Ficht} и В.~А.~Зорича \cite{Zorich2}, а также на первую часть учебника В.~А.~Зорича \cite{Zorich1}.
+
+% ===================== РАЗДЕЛ 1 =====================
+\section{Основные понятия и определения}
+
+\subsection{Несобственные интегралы I рода (бесконечные пределы интегрирования)}
+
+\begin{definition}[Несобственный интеграл I рода]
+Пусть функция $f$ определена на промежутке $[a,+\infty)$ и интегрируема по Риману на любом отрезке $[a,b]$, $b>a$. \emph{Несобственным интегралом I рода} от функции $f$ по промежутку $[a,+\infty)$ называется
+\begin{equation}\label{eq:Irod}
+\int_a^{+\infty} f(x)\dd x := \lim_{b\to+\infty}\int_a^b f(x)\dd x,
+\end{equation}
+если указанный предел существует и конечен. В этом случае интеграл называется \emph{сходящимся}, в противном случае — \emph{расходящимся}.
+\end{definition}
+
+Аналогично определяются интегралы
+\[
+\int_{-\infty}^b f(x)\dd x := \lim_{a\to-\infty}\int_a^b f(x)\dd x,
+\qquad
+\int_{-\infty}^{+\infty} f(x)\dd x := \int_{-\infty}^c f(x)\dd x + \int_c^{+\infty} f(x)\dd x,
+\]
+где $c\in\R$ произвольно; последний интеграл считается сходящимся, только если сходятся оба интеграла в правой части.
+
+\begin{example}
+Интеграл $\displaystyle\int_1^{+\infty}\frac{\dd x}{x^\alpha}$ сходится при $\alpha>1$ и расходится при $\alpha\le 1$. Действительно, при $\alpha\ne 1$
+\[
+\int_1^b \frac{\dd x}{x^\alpha} = \frac{b^{1-\alpha}-1}{1-\alpha},
+\]
+и предел при $b\to+\infty$ конечен лишь при $\alpha>1$, где он равен $\frac{1}{\alpha-1}$. При $\alpha=1$ получаем $\int_1^b\frac{\dd x}{x}=\ln b\to+\infty$.
+\end{example}
+
+\subsection{Несобственные интегралы II рода (особенность на конечном промежутке)}
+
+\begin{definition}[Несобственный интеграл II рода]\label{def:IIrod}
+Пусть функция $f$ определена на промежутке $[a,b)$, неограничена в окрестности точки $b$ (то есть $\lim_{x\to b-0}f(x)=\infty$ либо $f$ не имеет конечного предела при $x\to b-0$, оставаясь неограниченной), и пусть для любого $b'\in[a,b)$ функция $f$ интегрируема на отрезке $[a,b']$. Тогда \emph{несобственным интегралом II рода} от $f$ по $[a,b]$ называется
+\begin{equation}\label{eq:IIrod}
+\int_a^b f(x)\dd x := \lim_{b'\to b-0}\int_a^{b'} f(x)\dd x,
+\end{equation}
+если указанный предел существует и конечен. В этом случае интеграл называется \emph{сходящимся}, иначе — \emph{расходящимся}.
+\end{definition}
+
+Если особенность находится в левом конце $a$, то
+\[
+\int_a^b f(x)\dd x := \lim_{a'\to a+0}\int_{a'}^b f(x)\dd x.
+\]
+Если особенность находится во внутренней точке $c\in(a,b)$, то полагают
+\[
+\int_a^b f(x)\dd x := \int_a^c f(x)\dd x + \int_c^b f(x)\dd x,
+\]
+и интеграл сходится, только если сходятся оба слагаемых.
+
+\begin{example}
+Интеграл $\displaystyle\int_0^1\frac{\dd x}{x^\alpha}$ сходится при $\alpha<1$ и расходится при $\alpha\ge 1$. Действительно, при $\alpha\ne 1$
+\[
+\int_{\eps}^1\frac{\dd x}{x^\alpha} = \frac{1-\eps^{1-\alpha}}{1-\alpha},
+\]
+и предел при $\varepsilon\to+0$ конечен лишь при $\alpha<1$. При $\alpha=1$ имеем $\int_\eps^1\frac{\dd x}{x}=-\ln\eps\to+\infty$.
+\end{example}
+
+\begin{example}
+Интеграл $\displaystyle\int_0^1\ln x\dd x$ сходится. Действительно, интегрируя по частям,
+\[
+\int_\eps^1\ln x\dd x = \bigl[x\ln x - x\bigr]_\eps^1 = -1 - \eps\ln\eps + \eps \xrightarrow[\eps\to+0]{} -1.
+\]
+\end{example}
+
+\subsection{Абсолютная и условная сходимость}
+
+\begin{definition}
+Несобственный интеграл $\int_a^{+\infty}f(x)\dd x$ называется \emph{абсолютно сходящимся}, если сходится интеграл $\int_a^{+\infty}|f(x)|\dd x$. Если сам интеграл сходится, а интеграл от модуля расходится, то говорят, что он \emph{сходится условно} (неабсолютно).
+\end{definition}
+
+\begin{theorem}\label{th:abs_conv}
+Если интеграл $\int_a^{+\infty}|f(x)|\dd x$ сходится, то сходится и интеграл $\int_a^{+\infty}f(x)\dd x$.
+\end{theorem}
+
+\begin{proof}
+Так как $0\le f^+(x)\le|f(x)|$ и $0\le f^-(x)\le|f(x)|$, где $f^\pm=\frac12(|f|\pm f)$, то по признаку сравнения (см.~\S\ref{sec:priznaki}) интегралы от $f^+$ и $f^-$ сходятся. Но $f=f^+-f^-$, значит, интеграл от $f$ сходится как разность двух сходящихся интегралов.
+\end{proof}
+
+\begin{example}[условно сходящийся интеграл]
+Интеграл $\displaystyle\int_1^{+\infty}\frac{\sin x}{x}\dd x$ сходится, но не абсолютно. Сходимость будет установлена ниже с помощью признака Дирихле. Расходимость интеграла от модуля следует из того, что
+\[
+\int_1^N\frac{|\sin x|}{x}\dd x \ge \int_1^N\frac{\sin^2 x}{x}\dd x = \frac12\int_1^N\frac{\dd x}{x} - \frac12\int_1^N\frac{\cos 2x}{x}\dd x,
+\]
+где первый интеграл справа логарифмически растёт, а второй сходится по признаку Дирихле.
+\end{example}
+
+% ===================== РАЗДЕЛ 2 =====================
+\section{Признаки сходимости несобственных интегралов}\label{sec:priznaki}
+
+\subsection{Интегральный признак Коши и критерий для неотрицательных функций}
+
+\begin{theorem}[критерий сходимости для неотрицательной функции]\label{th:nonneg}
+Пусть $f\ge 0$ на $[a,+\infty)$ и $f$ интегрируема на любом отрезке $[a,b]$, $b>a$. Тогда интеграл $\int_a^{+\infty}f(x)\dd x$ сходится в том и только том случае, когда функция
+\[
+F(b)=\int_a^b f(x)\dd x
+\]
+ограничена сверху на $[a,+\infty)$.
+\end{theorem}
+
+\begin{proof}
+Так как $f\ge 0$, функция $F(b)$ не убывает. Неубывающая функция имеет конечный предел при $b\to+\infty$ тогда и только тогда, когда она ограничена сверху. Остаётся применить определение~\eqref{eq:Irod}.
+\end{proof}
+
+\begin{corollary}[интегральный признак Коши для рядов]
+Пусть $f\colon[1,+\infty)\to\R$ неотрицательна и монотонно убывает. Тогда ряд $\sum_{n=1}^{\infty}f(n)$ сходится в том и только том случае, когда сходится интеграл $\int_1^{+\infty}f(x)\dd x$.
+\end{corollary}
+
+\begin{proof}
+Из монотонности $f$ при $k\le x\le k+1$ имеем
+\[
+f(k+1)\le\int_k^{k+1}f(x)\dd x\le f(k).
+\]
+Суммируя по $k=1,\dots,n-1$, получаем
+\[
+\sum_{k=2}^{n}f(k)\le\int_1^n f(x)\dd x\le\sum_{k=1}^{n-1}f(k).
+\]
+Если сходится интеграл, то частичные суммы ряда ограничены сверху; если сходится ряд, то ограничен интеграл. Остаётся применить критерий из теоремы~\ref{th:nonneg}.
+\end{proof}
+
+\begin{example}
+Ряд $\sum_{n=1}^{\infty}\frac{1}{n^\alpha}$ сходится при $\alpha>1$ и расходится при $\alpha\le 1$ — это сразу следует из интегрального признака Коши и примера из~\S1.1.
+\end{example}
+
+\subsection{Признаки сравнения}
+
+\begin{theorem}[обычный признак сравнения]\label{th:compare1}
+Пусть $0\le f(x)\le g(x)$ при $x\ge a$. Тогда:
+\begin{enumerate}[label=\alph*)]
+\item если $\int_a^{+\infty}g(x)\dd x$ сходится, то сходится и $\int_a^{+\infty}f(x)\dd x$;
+\item если $\int_a^{+\infty}f(x)\dd x$ расходится, то расходится и $\int_a^{+\infty}g(x)\dd x$.
+\end{enumerate}
+\end{theorem}
+
+\begin{proof}
+Утверждение немедленно следует из теоремы~\ref{th:nonneg} и неравенств
+\[
+\int_a^b f(x)\dd x\le\int_a^b g(x)\dd x.
+\]
+\end{proof}
+
+\begin{theorem}[предельный признак сравнения]\label{th:compare2}
+Пусть $f,g>0$ на $[a,+\infty)$ и существует предел
+\[
+\lim_{x\to+\infty}\frac{f(x)}{g(x)}=L,\qquad 0<L<+\infty.
+\]
+Тогда интегралы $\int_a^{+\infty}f(x)\dd x$ и $\int_a^{+\infty}g(x)\dd x$ сходятся или расходятся одновременно.
+\end{theorem}
+
+\begin{proof}
+Из существования конечного положительного предела следует, что при достаточно больших $x$ выполнено, например, $\frac{L}{2}g(x)\le f(x)\le 2L\,g(x)$. Остаётся дважды применить теорему~\ref{th:compare1}.
+\end{proof}
+
+\begin{example}
+Интеграл $\displaystyle\int_1^{+\infty}\frac{\sqrt{x}}{1+x^4}\dd x$ сходится, так как при $x\to+\infty$
+\[
+\frac{\sqrt{x}}{1+x^4}\sim\frac{1}{x^{7/2}},
+\]
+а интеграл $\int_1^{+\infty}x^{-7/2}\dd x$ сходится ($7/2>1$).
+\end{example}
+
+\subsection{Признаки Дирихле и Абеля}
+
+\begin{theorem}[признак Дирихле]\label{th:Dirichlet}
+Пусть функция $f$ непрерывна на $[a,+\infty)$, а её первообразная $F(b)=\int_a^b f(x)\dd x$ ограничена на $[a,+\infty)$. Пусть функция $g$ монотонна на $[a,+\infty)$ и $\lim_{x\to+\infty}g(x)=0$. Тогда интеграл $\int_a^{+\infty}f(x)g(x)\dd x$ сходится.
+\end{theorem}
+
+\begin{theorem}[признак Абеля]\label{th:Abel}
+Пусть интеграл $\int_a^{+\infty}f(x)\dd x$ сходится, а функция $g$ монотонна и ограничена на $[a,+\infty)$. Тогда интеграл $\int_a^{+\infty}f(x)g(x)\dd x$ сходится.
+\end{theorem}
+
+Оба признака доказываются с помощью критерия Коши (\S\ref{sec:Cauchy}) и второй теоремы о среднем (формула Бонне): для монотонной $g$ и интегрируемой $f$
+\[
+\int_{b_1}^{b_2}f(x)g(x)\dd x = g(b_1)\int_{b_1}^{\xi}f(x)\dd x + g(b_2)\int_{\xi}^{b_2}f(x)\dd x
+\]
+для некоторого $\xi\in[b_1,b_2]$. Подробные доказательства см. в \cite[гл.~XIII,~\S1]{Ficht} и \cite[гл.~XVII,~\S2]{Zorich2}.
+
+\begin{example}\label{ex:sinx_x}
+Интеграл $\displaystyle\int_1^{+\infty}\frac{\sin x}{x}\dd x$ сходится по признаку Дирихле: функция $\sin x$ имеет ограниченную первообразную $-\cos x$, а $1/x$ монотонно убывает к нулю.
+\end{example}
+
+\begin{example}
+Интеграл $\displaystyle\int_1^{+\infty}\frac{\sin x}{x}\,\arctg x\dd x$ сходится по признаку Абеля: интеграл от $\sin x/x$ сходится (пример~\ref{ex:sinx_x}), а $\arctg x$ монотонна и ограничена.
+\end{example}
+
+\subsection{Критерий Коши сходимости несобственного интеграла}\label{sec:Cauchy}
+
+\begin{theorem}[критерий Коши]\label{th:Cauchy}
+Для сходимости интеграла $\int_a^{+\infty}f(x)\dd x$ необходимо и достаточно, чтобы для любого $\eps>0$ нашлось $B>a$ такое, что для любых $b_1,b_2>B$ выполнялось неравенство
+\[
+\left|\int_{b_1}^{b_2}f(x)\dd x\right|<\eps.
+\]
+\end{theorem}
+
+\begin{proof}
+Пусть $F(b)=\int_a^b f(x)\dd x$. Тогда
+\[
+\int_{b_1}^{b_2}f(x)\dd x = F(b_2)-F(b_1).
+\]
+Условие существования конечного предела $\lim_{b\to+\infty}F(b)$ по критерию Коши для функций как раз и состоит в том, что для любого $\eps>0$ существует $B$ такое, что при $b_1,b_2>B$ выполнено $|F(b_2)-F(b_1)|<\eps$.
+\end{proof}
+
+Аналогичный критерий справедлив и для интегралов II рода.
+
+\begin{example}
+Интеграл $\int_1^{+\infty}\frac{\dd x}{x}$ расходится: полагая $b_2=2b_1$, получаем
+\[
+\int_{b_1}^{2b_1}\frac{\dd x}{x}=\ln 2,
+\]
+и это не может быть сделано сколь угодно малым.
+\end{example}
+
+\subsection{Эквивалентные преобразования подынтегральной функции}
+
+\begin{proposition}\label{prop:equiv}
+Пусть $f,g\ge 0$ на $[a,+\infty)$ и $f(x)\sim g(x)$ при $x\to+\infty$, то есть $\lim_{x\to+\infty}f(x)/g(x)=1$. Тогда интегралы $\int_a^{+\infty}f(x)\dd x$ и $\int_a^{+\infty}g(x)\dd x$ сходятся или расходятся одновременно.
+\end{proposition}
+
+\begin{proof}
+Это частный случай предельного признака сравнения при $L=1$.
+\end{proof}
+
+\begin{example}
+$\displaystyle\int_1^{+\infty}\sin\frac{1}{x^2}\dd x$ сходится, так как $\sin(1/x^2)\sim 1/x^2$ при $x\to+\infty$.
+\end{example}
+
+\begin{example}
+$\displaystyle\int_1^{+\infty}\ln\!\left(1+\frac1x\right)\dd x$ расходится, так как $\ln(1+1/x)\sim 1/x$, а $\int_1^{+\infty}\dd x/x$ расходится.
+\end{example}
+
+% ===================== РАЗДЕЛ 3 =====================
+\section{Методы вычисления несобственных интегралов}
+
+\subsection{Интегрирование по частям и замена переменной}
+
+Формула интегрирования по частям переносится на несобственные интегралы: если $u,v$ непрерывно дифференцируемы на $[a,+\infty)$ и существует конечный предел $\lim_{x\to+\infty}u(x)v(x)$, то
+\begin{equation}\label{eq:parts}
+\int_a^{+\infty}u\dd v = \bigl[u(x)v(x)\bigr]_a^{+\infty} - \int_a^{+\infty}v\dd u,
+\end{equation}
+причём интегралы в правой части сходятся или расходятся одновременно (см.~\cite[гл.~XIII,~\S3]{Ficht}).
+
+Формула замены переменной: если $\varphi\colon[\alpha,\beta)\to[a,+\infty)$ — гладкая строго монотонная функция с $\varphi(\alpha)=a$ и $\varphi(\beta-0)=+\infty$, то
+\begin{equation}\label{eq:subst}
+\int_a^{+\infty}f(x)\dd x = \int_\alpha^\beta f(\varphi(t))\varphi'(t)\dd t,
+\end{equation}
+причём оба интеграла сходятся или расходятся одновременно.
+
+\begin{example}
+$\displaystyle\int_0^{+\infty}xe^{-x}\dd x = \bigl[-xe^{-x}\bigr]_0^{+\infty}+\int_0^{+\infty}e^{-x}\dd x = 1.$
+\end{example}
+
+\begin{example}
+$\displaystyle\int_0^{+\infty}e^{-\sqrt{x}}\dd x$. Положим $x=t^2$, $\dd x=2t\dd t$, тогда
+\[
+\int_0^{+\infty}e^{-\sqrt{x}}\dd x = 2\int_0^{+\infty}te^{-t}\dd t = 2.
+\]
+\end{example}
+
+\subsection{Вычисление через пределы}
+
+Простейший способ: прямо по определению найти первообразную на конечном промежутке и перейти к пределу.
+
+\begin{example}
+$\displaystyle\int_0^1\frac{\dd x}{\sqrt{1-x}} = \lim_{b\to1-0}\bigl[-2\sqrt{1-x}\bigr]_0^b = \lim_{b\to1-0}\bigl(2-2\sqrt{1-b}\bigr)=2.$
+\end{example}
+
+\begin{example}
+$\displaystyle\int_0^{+\infty}\frac{\dd x}{1+x^2}=\lim_{b\to+\infty}\arctg b = \frac{\pi}{2}.$
+\end{example}
+
+\subsection{Использование специальных функций}
+
+\paragraph{Гамма-функция Эйлера.} Определяется интегралом
+\begin{equation}\label{eq:Gamma}
+\Gamma(s)=\int_0^{+\infty}x^{s-1}e^{-x}\dd x,\qquad s>0.
+\end{equation}
+
+\begin{proposition}
+Интеграл~\eqref{eq:Gamma} сходится при всех $s>0$.
+\end{proposition}
+
+\begin{proof}
+Разобьём интеграл на два: $\int_0^1$ и $\int_1^{+\infty}$. На $(0,1]$ имеем $x^{s-1}e^{-x}\le x^{s-1}$, а $\int_0^1 x^{s-1}\dd x$ сходится при $s>0$. На $[1,+\infty)$ функция $x^{s-1}e^{-x}$ убывает быстрее любой степени $x$, и интеграл сходится при всех $s$ (ср.~\cite[гл.~XVII,~\S3]{Zorich2}).
+\end{proof}
+
+Основные свойства:
+\begin{align*}
+\Gamma(s+1)&=s\Gamma(s),\\
+\Gamma(n+1)&=n!,\qquad n\in\N,\\
+\Gamma(1/2)&=\sqrt{\pi},\\
+B(p,q)&=\frac{\Gamma(p)\Gamma(q)}{\Gamma(p+q)},
+\end{align*}
+где
+\[
+B(p,q)=\int_0^1 x^{p-1}(1-x)^{q-1}\dd x,\qquad p,q>0,
+\]
+— бета-функция Эйлера.
+
+\paragraph{Интеграл вероятностей.} Из формулы $\Gamma(1/2)=\sqrt{\pi}$ и замены $x=t^2$ получаем
+\[
+\int_0^{+\infty}e^{-x^2}\dd x = \frac12\int_0^{+\infty}t^{-1/2}e^{-t}\dd t=\frac12\Gamma\!\left(\frac12\right)=\frac{\sqrt{\pi}}{2}.
+\]
+
+\subsection{Метод дифференцирования по параметру}
+
+\begin{theorem}\label{th:param}
+Пусть $f(x,\alpha)$ и $\partial f/\partial\alpha$ непрерывны на $[a,+\infty)\times[\alpha_1,\alpha_2]$. Пусть интеграл $\int_a^{+\infty}f(x,\alpha)\dd x$ сходится при каждом $\alpha\in[\alpha_1,\alpha_2]$, а интеграл $\int_a^{+\infty}\partial f/\partial\alpha(x,\alpha)\dd x$ сходится равномерно по $\alpha\in[\alpha_1,\alpha_2]$. Тогда
+\[
+\frac{\dd}{\dd\alpha}\int_a^{+\infty}f(x,\alpha)\dd x = \int_a^{+\infty}\frac{\partial f}{\partial\alpha}(x,\alpha)\dd x.
+\]
+\end{theorem}
+
+Доказательство см. в \cite[гл.~XVII,~\S2]{Zorich2}.
+
+\begin{example}[интеграл Дирихле через параметр]\label{ex:param}
+Рассмотрим $F(\alpha)=\displaystyle\int_0^{+\infty}e^{-\alpha x}\frac{\sin x}{x}\dd x$, $\alpha>0$. Формальное дифференцирование даёт
+\[
+F'(\alpha)=-\int_0^{+\infty}e^{-\alpha x}\sin x\dd x = -\frac{1}{1+\alpha^2}.
+\]
+Интегрируя, получаем $F(\alpha)=-\arctg\alpha+C$. При $\alpha\to+\infty$ $F(\alpha)\to0$, откуда $C=\pi/2$. Значит,
+\[
+F(\alpha)=\frac{\pi}{2}-\arctg\alpha,
+\]
+и, переходя к пределу при $\alpha\to+0$,
+\[
+\int_0^{+\infty}\frac{\sin x}{x}\dd x = \frac{\pi}{2}.
+\]
+Обоснование законности дифференцирования под знаком интеграла: интеграл $\int_0^{+\infty}e^{-\alpha x}\sin x\dd x$ сходится равномерно по $\alpha\ge\alpha_0>0$.
+\end{example}
+
+% ===================== РАЗДЕЛ 4 =====================
+\section{Примеры исследования и вычисления несобственных интегралов}
+
+\subsection{Интеграл Пуассона}
+
+\begin{theorem}[интеграл Пуассона]
+\[
+\int_{-\infty}^{+\infty}e^{-x^2}\dd x = \sqrt{\pi}.
+\]
+\end{theorem}
+
+Приведём два независимых доказательства.
+
+\paragraph{Способ 1 (двойной интеграл и полярные координаты).}
+Положим $I=\int_0^{+\infty}e^{-x^2}\dd x$. Тогда
+\[
+I^2=\int_0^{+\infty}\!\!\int_0^{+\infty}e^{-(x^2+y^2)}\dd x\dd y.
+\]
+Переходя к полярным координатам $x=r\cos\varphi$, $y=r\sin\varphi$ ($r\ge0$, $0\le\varphi\le\pi/2$), получаем
+\[
+I^2=\int_0^{\pi/2}\dd\varphi\int_0^{+\infty}e^{-r^2}r\dd r=\frac{\pi}{2}\cdot\frac12=\frac{\pi}{4},
+\]
+откуда $I=\sqrt{\pi}/2$ и $\int_{-\infty}^{+\infty}e^{-x^2}\dd x=2I=\sqrt{\pi}$.
+
+\paragraph{Способ 2 (гамма-функция).}
+Заменой $x=t^2$ сводим интеграл к гамма-функции:
+\[
+\int_0^{+\infty}e^{-x^2}\dd x=\frac12\int_0^{+\infty}t^{-1/2}e^{-t}\dd t=\frac12\Gamma\!\left(\frac12\right)=\frac{\sqrt{\pi}}{2}.
+\]
+
+\begin{remark}
+Интеграл Пуассона не выражается через элементарные функции. Его значение $\sqrt{\pi}$ играет ключевую роль в теории вероятностей (нормировочный множитель нормального распределения) и в анализе (формула Стирлинга).
+\end{remark}
+
+\subsection{Интеграл Дирихле}
+
+\begin{theorem}[интеграл Дирихле]
+\[
+\int_0^{+\infty}\frac{\sin x}{x}\dd x=\frac{\pi}{2}.
+\]
+\end{theorem}
+
+\begin{proof}
+Следует из примера~\ref{ex:param}: достаточно перейти к пределу при $\alpha\to+0$ в формуле $F(\alpha)=\frac{\pi}{2}-\arctg\alpha$ (законность предельного перехода вытекает из равномерной сходимости по $\alpha\ge 0$; см.~\cite[гл.~XVII,~\S2]{Zorich2}).
+\end{proof}
+
+Этот интеграл сходится \emph{условно} — модуль $\sin x/x$ даёт расходящийся интеграл (см.~\S1.3).
+
+\subsection{Интегралы Френеля}
+
+\begin{theorem}
+\[
+\int_0^{+\infty}\cos(x^2)\dd x=\int_0^{+\infty}\sin(x^2)\dd x=\frac{\sqrt{2\pi}}{4}.
+\]
+\end{theorem}
+
+\begin{proof}[Краткая схема]
+Рассмотрим интеграл $\int_0^{+\infty}e^{-i x^2}\dd x$. Формально он получается из интеграла $\int_0^{+\infty}e^{-\alpha x^2}\dd x=\frac{\sqrt{\pi}}{2\sqrt{\alpha}}$ аналитическим продолжением по $\alpha$ в точку $\alpha=i$ (с учётом затухания $e^{-i x^2}$ при больших $x$). Полагая $\alpha=i=e^{i\pi/2}$, получаем
+\[
+\int_0^{+\infty}e^{-i x^2}\dd x=\frac{\sqrt{\pi}}{2}e^{-i\pi/4}=\frac{\sqrt{2\pi}}{4}(1-i).
+\]
+Отделяя вещественную и мнимую части, получаем искомые значения. Строгое обоснование использует контурное интегрирование (см.~\cite[гл.~XVII,~\S3]{Zorich2}).
+\end{proof}
+
+\begin{remark}
+Интегралы Френеля возникают в оптике при описании дифракции. Их сходимость легко усматривается по признаку Дирихле: после замены $t=x^2$ интеграл $\int_0^{+\infty}\cos(x^2)\dd x$ переходит в $\frac12\int_0^{+\infty}t^{-1/2}\cos t\dd t$, где $t^{-1/2}$ монотонно убывает к нулю, а $\cos t$ имеет ограниченную первообразную.
+\end{remark}
+
+% ===================== ЗАКЛЮЧЕНИЕ =====================
+\section*{Заключение}
+\addcontentsline{toc}{section}{Заключение}
+
+В работе были рассмотрены основные понятия теории несобственных интегралов: интегралы I рода (с бесконечными пределами) и II рода (с особенностью на конечном промежутке), а также абсолютная и условная сходимость. Систематизированы признаки сходимости: критерий для неотрицательных функций и его следствие — интегральный признак Коши для рядов, признаки сравнения (обычный и предельный), признаки Дирихле и Абеля, критерий Коши. Разобраны методы вычисления несобственных интегралов: интегрирование по частям, замена переменной, сведение к гамма- и бета-функциям Эйлера, дифференцирование по параметру. В качестве содержательных примеров вычислены интеграл Пуассона, интеграл Дирихле и интегралы Френеля.
+
+Материал работы опирается на классические учебники \cite{Ficht,Zorich1,Zorich2}. В дальнейшем было бы полезно дополнить изложение вопросами равномерной сходимости несобственных интегралов, зависящих от параметра, и приближёнными методами их вычисления (см.~\cite[гл.~XIII,~\S5]{Ficht}).
+
+% ===================== ЛИТЕРАТУРА =====================
+\begin{thebibliography}{99}
+\addcontentsline{toc}{section}{Список литературы}
+
+\bibitem{Ficht}
+\emph{Фихтенгольц Г.~М.} Курс дифференциального и интегрального исчисления. В 3~т. Т.~2. — 7-е изд. — М.: Наука, 1969. — 800~с.
+
+\bibitem{Zorich1}
+\emph{Зорич В.~А.} Математический анализ. Часть~I. — 10-е изд., испр. — М.: МЦНМО, 2019. — xii+564~с.
+
+\bibitem{Zorich2}
+\emph{Зорич В.~А.} Математический анализ. Часть~II. — 9-е изд., испр. — М.: МЦНМО, 2019. — xii+676~с.
+
+\end{thebibliography}
+
+\end{document}

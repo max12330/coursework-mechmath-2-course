@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1779027785.12885 "d:/SSU/Практики+курсовая/Мех-мат/Курсовая работа/Сходимость несобственных интегралов/пдф/coursework_tex/main.tex" "main.pdf" "main" 1779027787.40304 0
-  "C:/Users/LocalUser/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1776594742 81247 50d52f6487769ef97fe2dc7d59ae1563 ""
+["pdflatex"] 1789410995.55792 "d:/SSU/Практики+курсовая/Мех-мат/Курсовая работа/Сходимость несобственных интегралов/пдф/coursework_tex/main.tex" "main.pdf" "main" 1789410996.46479 2
+  "C:/Users/LocalUser/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1789330671 81247 50d52f6487769ef97fe2dc7d59ae1563 ""
   "C:/Users/LocalUser/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1440.pk" 1770641256 36852 3b10eea6ffc6424ee862427190b84af5 ""
   "C:/Users/LocalUser/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm0600.pk" 1770641254 14008 bc2e7135dae80d870cdd502bd057e4a6 ""
   "C:/Users/LocalUser/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1440.pk" 1770641258 32600 a6879fd38c43d8f9435c05bad085b69e ""
@@ -115,11 +115,11 @@
   "C:/Users/LocalUser/AppData/Local/Programs/MiKTeX/tex/latex/tools/longtable.sty" 1761901070 16014 dfa4b4d4e04a78a3f05a90c19711737a ""
   "C:/Users/LocalUser/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "SCWorks1.cls" 1762686680 28892 653a922fb2e75138632e2f1e78a1ba76 ""
-  "d:/SSU/Практики+курсовая/Мех-мат/Курсовая работа/Сходимость несобственных интегралов/пдф/coursework_tex/main.tex" 1779027780 25630 50a046cc57b02e48d7e89bc5633bf86f ""
-  "main.aux" 1779027786 4670 8e151df52bd0e848538d25f83ff4636e "pdflatex"
-  "main.out" 1779027786 7092 f8cd95529d6e00ef6a4609b08e339441 "pdflatex"
-  "main.tex" 1779027780 25630 50a046cc57b02e48d7e89bc5633bf86f ""
-  "main.toc" 1779027786 3253 06e1a19c7e78a149e2384397471f791a "pdflatex"
+  "d:/SSU/Практики+курсовая/Мех-мат/Курсовая работа/Сходимость несобственных интегралов/пдф/coursework_tex/main.tex" 1789410994 25630 50a046cc57b02e48d7e89bc5633bf86f ""
+  "main.aux" 1789410994 4505 e37f8ed0ca4a3d435589a0a8f8ea1a25 "pdflatex"
+  "main.out" 1789410994 6799 d2fd1fd2ca0b963116d454586ef8178c "pdflatex"
+  "main.tex" 1789410994 25630 50a046cc57b02e48d7e89bc5633bf86f ""
+  "main.toc" 1789410994 3129 7684f431a723561e70a9d190be098226 "pdflatex"
   (generated)
   "main.aux"
   "main.log"
