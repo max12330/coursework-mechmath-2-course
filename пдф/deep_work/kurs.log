@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.9)  23 OCT 2026 19:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.9)  24 OCT 2026 12:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -651,28 +651,23 @@ Overfull \hbox (3.39038pt too wide) in paragraph at lines 80--81
 []\T2A/cmr/m/n/12 Сформулировать и до-ка-зать ос-нов-ные при-зна-ки схо-ди-мо-сти (кри-те-рий для неот-
  []
 
-[2] [3]
-Overfull \hbox (37.29353pt too wide) in paragraph at lines 158--159
-[][]\T2A/cmr/bx/n/12 Теорема 1.1. []\T2A/cmr/m/it/12 Ес-ли ин-те-грал $[][] \OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 )\OMS/cmsy/m/n/12 j \OT1/cmr/m/n/12 d\OML/cmm/m/it/12 x$ \T2A/cmr/m/it/12 схо-дит-ся, то схо-дит-ся и ин-те-грал $[][] \OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 ) d\OML/cmm/m/it/12 x$\T2A/cmr/m/it/12 . 
- []
-
-[4] [5] [6] [7]
-Overfull \hbox (2.6015pt too wide) in paragraph at lines 392--393
+[2] [3] [4] [5] [6] [7]
+Overfull \hbox (2.6015pt too wide) in paragraph at lines 393--394
 \T2A/cmr/m/it/12 грал $[][] \OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x; \OT1/cmr/m/n/12 ) d\OML/cmm/m/it/12 x$ \T2A/cmr/m/it/12 схо-дит-ся при каж-дом $\OML/cmm/m/it/12  \OMS/cmsy/m/n/12 2 \OT1/cmr/m/n/12 [\OML/cmm/m/it/12 []; []\OT1/cmr/m/n/12 ]$\T2A/cmr/m/it/12 , а ин-те-грал $[][] \OML/cmm/m/it/12 @f=@\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x; \OT1/cmr/m/n/12 ) d\OML/cmm/m/it/12 x$
  []
 
 
-Overfull \hbox (20.02356pt too wide) in paragraph at lines 401--402
+Overfull \hbox (20.02356pt too wide) in paragraph at lines 402--403
 [][]\T2A/cmr/bx/n/12 Пример 3.5 \T2A/cmr/m/n/12 (ин-те-грал Ди-ри-х-ле че-рез па-ра-метр)\T2A/cmr/bx/n/12 . []\T2A/cmr/m/n/12 Рас-смот-рим $\OML/cmm/m/it/12 F\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 \OT1/cmr/m/n/12 ) = [][] \OML/cmm/m/it/12 e[][] \OT1/cmr/m/n/12 d\OML/cmm/m/it/12 x$\T2A/cmr/m/n/12 ,
  []
 
 
-Overfull \hbox (53.27696pt too wide) in paragraph at lines 412--414
+Overfull \hbox (53.27696pt too wide) in paragraph at lines 413--415
 \T2A/cmr/m/n/12 Обоснование за-кон-но-сти диф-фе-рен-ци-ро-ва-ния под зна-ком ин-те-гра-ла: ин-те-грал $[][] \OML/cmm/m/it/12 e[] [] x \OT1/cmr/m/n/12 d\OML/cmm/m/it/12 x$
  []
 
 [8]
-Overfull \hbox (25.70186pt too wide) in paragraph at lines 430--431
+Overfull \hbox (25.70186pt too wide) in paragraph at lines 431--432
  []\T2A/cmr/bx/n/12 Способ 1 (двой-ной ин-те-грал и по-ляр-ные ко-ор-ди-на-ты).[] \T2A/cmr/m/n/12 По-ло-жим $\OML/cmm/m/it/12 I \OT1/cmr/m/n/12 = [][] \OML/cmm/m/it/12 e[] \OT1/cmr/m/n/12 d\OML/cmm/m/it/12 x$\T2A/cmr/m/n/12 .
  []
 
@@ -693,9 +688,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  75i,11n,79p,1496b,626s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\LocalUser\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\LocalUser\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1200.pk> <C:\Users\LocalUser\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\LocalUser\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk> <C:\Users\LocalUser\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\LocalUser\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk><C:/Users/LocalUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/LocalUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/LocalUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/LocalUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/LocalUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/LocalUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/LocalUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/LocalUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/LocalUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/LocalUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/LocalUser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on kurs.pdf (11 pages, 303762 bytes).
+Output written on kurs.pdf (11 pages, 303623 bytes).
 PDF statistics:
- 663 PDF objects out of 1000 (max. 8388607)
+ 662 PDF objects out of 1000 (max. 8388607)
  87 named destinations out of 1000 (max. 500000)
  177 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -7,9 +7,9 @@
 \contentsline {section}{\numberline {2}Признаки сходимости несобственных интегралов}{4}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Интегральный признак Коши и критерий для неотрицательных функций}{4}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Признаки сравнения}{5}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Признаки Дирихле и Абеля}{5}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.3}Признаки Дирихле и Абеля}{6}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Критерий Коши сходимости несобственного интеграла}{6}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Эквивалентные преобразования подынтегральной функции}{6}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.5}Эквивалентные преобразования подынтегральной функции}{7}{subsection.2.5}%
 \contentsline {section}{\numberline {3}Методы вычисления несобственных интегралов}{7}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Интегрирование по частям и замена переменной}{7}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Вычисление через пределы}{7}{subsection.3.2}%

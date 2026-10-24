@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1792769577.3305 "d:/SSU/Практики+курсовая/Мех-мат/Курсовая работа/Сходимость несобственных интегралов/пдф/deep_work/kurs.tex" "kurs.pdf" "kurs" 1792769580.57369 0
+["pdflatex"] 1792828859.7969 "d:/SSU/Практики+курсовая/Мех-мат/Курсовая работа/Сходимость несобственных интегралов/пдф/deep_work/kurs.tex" "kurs.pdf" "kurs" 1792828862.31097 0
   "C:/Users/LocalUser/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1792769557 81247 50d52f6487769ef97fe2dc7d59ae1563 ""
   "C:/Users/LocalUser/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1200.pk" 1770802437 29472 6a4e96532e7599fbfedeccdfac47c3e8 ""
   "C:/Users/LocalUser/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1440.pk" 1770641256 36852 3b10eea6ffc6424ee862427190b84af5 ""
@@ -110,11 +110,11 @@
   "C:/Users/LocalUser/AppData/Local/Programs/MiKTeX/tex/latex/tools/calc.sty" 1761901070 10374 2ffd4f27c7f90b8a300608069537743c ""
   "C:/Users/LocalUser/AppData/Local/Programs/MiKTeX/tex/latex/tools/indentfirst.sty" 1761901070 1618 30b01152766afcef2ed8f904cfdd3cc6 ""
   "C:/Users/LocalUser/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "d:/SSU/Практики+курсовая/Мех-мат/Курсовая работа/Сходимость несобственных интегралов/пдф/deep_work/kurs.tex" 1792769510 33262 aacb379f838845484c23b8e050ab60d4 ""
-  "kurs.aux" 1792769579 6666 356b5428435438faad199abea3cab217 "pdflatex"
-  "kurs.out" 1792769579 7323 86e6992ad101310b403b2b4c1c3109ba "pdflatex"
-  "kurs.tex" 1792769510 33262 aacb379f838845484c23b8e050ab60d4 ""
-  "kurs.toc" 1792769579 3232 7033d3b3cdd5e20ebe2891f3a841a809 "pdflatex"
+  "d:/SSU/Практики+курсовая/Мех-мат/Курсовая работа/Сходимость несобственных интегралов/пдф/deep_work/kurs.tex" 1792828855 33317 368815f50eee8d23f05e5e5f1806cc04 ""
+  "kurs.aux" 1792828861 6666 0996f47592536e31d49c263a1950e151 "pdflatex"
+  "kurs.out" 1792828861 7323 86e6992ad101310b403b2b4c1c3109ba "pdflatex"
+  "kurs.tex" 1792828855 33317 368815f50eee8d23f05e5e5f1806cc04 ""
+  "kurs.toc" 1792828861 3232 ea32bbec74225eb57dbd6fda0c080b2c "pdflatex"
   (generated)
   "kurs.aux"
   "kurs.log"

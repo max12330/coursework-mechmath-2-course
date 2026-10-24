@@ -39,8 +39,28 @@
 
 \newcommand{\eqdef}{\stackrel {\rm def}{=}}
 
+\newtheorem{definition}{Определение}
 \newtheorem{lem}{Лемма}
 \newtheorem{theorem}{Теорема}
+\newtheorem{corollary}[theorem]{Следствие}
+\newtheorem{proposition}[theorem]{Утверждение}
+
+
+% --- Обозначения ---
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\dd}{\,\mathrm{d}}
+\newcommand{\eps}{\varepsilon}
+\DeclareMathOperator{\sgn}{sgn}
+\DeclareMathOperator{\const}{const}
+\newcommand{\unifconv}[1]{%
+  \mathrel{\mathop{\rightrightarrows}%
+    \ifx\relax#1\relax\else\limits_{#1}\fi}%
+}
+\renewcommand{\leq}{\leqslant}
+\renewcommand{\le}{\leqslant}
+\renewcommand{\geq}{\geqslant}
+\renewcommand{\ge}{\geqslant}
 
 \begin{document}
 
@@ -116,36 +136,120 @@
 \section{Основные понятия и определения}
 
 \subsection{Несобственные интегралы I рода}
-\textbf{Определение 1}. \textit{Пусть функция $f(x)$ определена на $[a,\infty)$ и $\forall b>a$ $f(x)$ интегрируема на $[a,b]$. Тогда величина
-\[
-\int\limits_a^\infty f(x)\,dx = \lim_{b \to \infty}\int\limits_a^b f(x)\,dx
-\]
-называется несобственным интегралом Римана I рода.
-}
+\begin{definition}
+Пусть функция $f(x)$ определена на $[a,\infty)$ и $\forall b>a$ $f(x)$ интегрируема на $[a,b]$. Тогда величина
+\begin{equation}\label{eq:Irod}
+\int\limits_a^\infty f(x)\dd x = \lim_{b \to \infty}\int\limits_a^b f(x)\dd x
+\end{equation}
+называется несобственным интегралом Римана I рода.    
+\end{definition}
 
 Если указанный предел существует, то интеграл называется сходящимся и значение предела --- это значение интеграла. Иначе интеграл называется расходящимся. Таким образом, вопрос о сходимости несобственного интеграла равносилен вопросу о том, определен ли вообще этот несобственный интеграл или нет.
 
-\subsection{Несобственные интегралы II рода}
-\textbf{Определение 2}. \textit{
-Пусть функция $f(x)$ определена на $[a,b)$ и \\ $\displaystyle\lim_{x \to b -0} f(x) = \infty$, $\forall b'\in[a,b)$ $f(x)$ интегрируема на $[a,b']$. Тогда величина
+Аналогично определяются интегралы
 \[
-\int\limits_a^b f(x)\,dx = \lim_{b' \to b-0}\int\limits_a^{b'} f(x)\,dx
+\int_{-\infty}^b f(x)\dd x := \lim_{a\to-\infty}\int_a^b f(x)\dd x,
 \]
+\[
+\int_{-\infty}^{+\infty} f(x)\dd x := \int_{-\infty}^c f(x)\dd x + \int_c^{+\infty} f(x)\dd x,
+\]
+где $c\in\R$ произвольно; последний интеграл считается сходящимся, только если сходятся оба интеграла в правой части.
+
+\subsection{Несобственные интегралы II рода}
+\begin{definition}
+Пусть функция $f(x)$ определена на $[a,b)$ и \\ $\displaystyle\lim_{x \to b -0} f(x) = \infty$, $\forall b'\in[a,b)$ $f(x)$ интегрируема на $[a,b']$. Тогда величина
+\begin{equation}\label{eq:IIrod}
+\int\limits_a^b f(x)\dd x = \lim_{b' \to b-0}\int\limits_a^{b'} f(x)\dd x
+\end{equation}
 называется несобственным интегралом Римана II рода.
-}
+\end{definition}
 
 Суть этого определения состоит в том, что в любой окрестности конечной точки $b$ функция $f$ может оказаться неограниченной.
+
+Если особенность находится в левом конце $a$, то
+\[
+\int_a^b f(x)\dd x := \lim_{a'\to a+0}\int_{a'}^b f(x)\dd x.
+\]
+Если особенность находится во внутренней точке $c\in(a,b)$, то полагают
+\[
+\int_a^b f(x)\dd x := \int_a^c f(x)\dd x + \int_c^b f(x)\dd x,
+\]
+и интеграл сходится, только если сходятся оба слагаемых.
 
 \subsection{Абсолютная и условная сходимость}
 
 
-\section{Признаки сходимости несобственных интегралов}
+\begin{definition}
+Несобственный интеграл $\int_a^{+\infty}f(x)\dd x$ называется \emph{абсолютно сходящимся}, если сходится интеграл $\int_a^{+\infty}|f(x)|\dd x$. Если сам интеграл сходится, а интеграл от модуля расходится, то говорят, что он \emph{сходится условно} (неабсолютно).
+\end{definition}
+
+\begin{theorem}\label{th:abs_conv}
+Если интеграл $\int_a^{+\infty}|f(x)|\dd x$ сходится, то сходится и интеграл $\int_a^{+\infty}f(x)\dd x$.
+\end{theorem}
+
+\begin{proof}
+Так как $0\le f^+(x)\le|f(x)|$ и $0\le f^-(x)\le|f(x)|$, где $f^\pm=\frac12(|f|\pm f)$, то по признаку сравнения (см.~\S\ref{sec:priznaki}) интегралы от $f^+$ и $f^-$ сходятся. Но $f=f^+-f^-$, значит, интеграл от $f$ сходится как разность двух сходящихся интегралов.
+\end{proof}
+
+\section{Признаки сходимости несобственных интегралов}\label{sec:priznaki}
 
 \subsection{Интегральный признак Коши}
 
+\begin{theorem}[критерий сходимости для неотрицательной функции]\label{th:nonneg}
+Пусть $f\ge 0$ на $[a,+\infty)$ и $f$ интегрируема на любом отрезке $[a,b]$, $b>a$. Тогда интеграл $\int_a^{+\infty}f(x)\dd x$ сходится в том и только том случае, когда функция
+\[
+F(b)=\int_a^b f(x)\dd x
+\]
+ограничена сверху на $[a,+\infty)$.
+\end{theorem}
+
+\begin{proof}
+Так как $f\ge 0$, функция $F(b)$ не убывает. Неубывающая функция имеет конечный предел при $b\to+\infty$ тогда и только тогда, когда она ограничена сверху. Остаётся применить определение~\eqref{eq:Irod}.
+\end{proof}
+
+\begin{corollary}[интегральный признак Коши для рядов]
+Пусть \\ $f\colon[1,+\infty)\to\R$ неотрицательна и монотонно убывает. Тогда ряд $\sum_{n=1}^{\infty}f(n)$ сходится в том и только том случае, когда сходится интеграл $\int_1^{+\infty}f(x)\dd x$.
+\end{corollary}
+
+\begin{proof}
+Из монотонности $f$ при $k\le x\le k+1$ имеем
+\[
+f(k+1)\le\int_k^{k+1}f(x)\dd x\le f(k).
+\]
+Суммируя по $k=1,\dots,n-1$, получаем
+\[
+\sum_{k=2}^{n}f(k)\le\int_1^n f(x)\dd x\le\sum_{k=1}^{n-1}f(k).
+\]
+Если сходится интеграл, то частичные суммы ряда ограничены сверху; если сходится ряд, то ограничен интеграл. Остаётся применить критерий из теоремы~\ref{th:nonneg}.
+\end{proof}
 
 \subsection{Признаки сравнения}
+\begin{theorem}[обычный признак сравнения]\label{th:compare1}
+Пусть $0\le f(x)\le g(x)$ при $x\ge a$. Тогда:
+\begin{enumerate}[label=\alph*)]
+\item если $\int_a^{+\infty}g(x)\dd x$ сходится, то сходится и $\int_a^{+\infty}f(x)\dd x$;
+\item если $\int_a^{+\infty}f(x)\dd x$ расходится, то расходится и $\int_a^{+\infty}g(x)\dd x$.
+\end{enumerate}
+\end{theorem}
 
+\begin{proof}
+Утверждение немедленно следует из теоремы~\ref{th:nonneg} и неравенств
+\[
+\int_a^b f(x)\dd x\le\int_a^b g(x)\dd x.
+\]
+\end{proof}
+
+\begin{theorem}[предельный признак сравнения]\label{th:compare2}
+Пусть $f,g>0$ на $[a,+\infty)$ и существует предел
+\[
+\lim_{x\to+\infty}\frac{f(x)}{g(x)}=L,\qquad 0<L<+\infty.
+\]
+Тогда интегралы $\int_a^{+\infty}f(x)\dd x$ и $\int_a^{+\infty}g(x)\dd x$ сходятся или расходятся одновременно.
+\end{theorem}
+
+\begin{proof}
+Из существования конечного положительного предела следует, что при достаточно больших $x$ выполнено, например, $\frac{L}{2}g(x)\le f(x)\le 2L\,g(x)$. Остаётся дважды применить теорему~\ref{th:compare1}.
+\end{proof}
 
 \subsection{Признак Дирихле и признак Абеля}
 
