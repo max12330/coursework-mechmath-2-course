@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1792850751.42613 "d:/Максим/Обучение/СГУ/Практики+курсовая/Мех-мат/Курсовая работа/Сходимость несобственных интегралов/пдф/coursework_tex/main.tex" "main.pdf" "main" 1792850753.18372 0
+["pdflatex"] 1792925073.2749 "d:/Максим/Обучение/СГУ/Практики+курсовая/Мех-мат/Курсовая работа/Сходимость несобственных интегралов/пдф/coursework_tex/main.tex" "main.pdf" "main" 1792925074.98034 0
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1233951854 916 f87d7c45f9c908e672703b83b72241a3 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/symbols/msam7.tfm" 1233951854 928 2dc8d444221b7a635bb58038579b861a ""
@@ -116,11 +116,11 @@
   "C:/Users/chesm/AppData/Local/MiKTeX/fonts/tfm/lh/lh-t2a/lati1440.tfm" 1747482577 3528 460e6901416a816cf4afa844b5d54101 ""
   "C:/Users/chesm/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1747480801 24215231 338f1eb12dcd1bbf9c53ff7a26820d96 ""
   "SCWorks1.cls" 1778691178 29776 653a922fb2e75138632e2f1e78a1ba76 ""
-  "d:/Максим/Обучение/СГУ/Практики+курсовая/Мех-мат/Курсовая работа/Сходимость несобственных интегралов/пдф/coursework_tex/main.tex" 1792850749 37728 8a3798b98ebe201e3b8f32e83e5d602b ""
-  "main.aux" 1792850752 6117 b9185a892d42c877b1ab9c1bc8f1d737 "pdflatex"
-  "main.out" 1792850752 6911 b73ac1e9eb4b13ca035333748daffcb2 "pdflatex"
-  "main.tex" 1792850749 37728 8a3798b98ebe201e3b8f32e83e5d602b ""
-  "main.toc" 1792850752 3129 38a0b5c6bbc0f64613de87b3bb872ac5 "pdflatex"
+  "d:/Максим/Обучение/СГУ/Практики+курсовая/Мех-мат/Курсовая работа/Сходимость несобственных интегралов/пдф/coursework_tex/main.tex" 1792925071 37729 e47e0b31f611e50ff0581afcce7e295b ""
+  "main.aux" 1792925074 6117 b9185a892d42c877b1ab9c1bc8f1d737 "pdflatex"
+  "main.out" 1792925074 6911 b73ac1e9eb4b13ca035333748daffcb2 "pdflatex"
+  "main.tex" 1792925071 37729 e47e0b31f611e50ff0581afcce7e295b ""
+  "main.toc" 1792925074 3129 38a0b5c6bbc0f64613de87b3bb872ac5 "pdflatex"
   (generated)
   "main.aux"
   "main.log"
