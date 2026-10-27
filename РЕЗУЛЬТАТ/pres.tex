@@ -1,0 +1,224 @@
+\documentclass[pdf, intlimits, unicode, S6, presentation]{beamer}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+
+\usetheme{Warsaw}
+\usefonttheme[onlysmall]{structurebold}
+\usefonttheme[onlymath]{serif}
+\setbeamercovered{dynamic}
+\setbeamercovered{transparent}
+\setbeamerfont{institute}{size=\normalsize}
+\setbeamertemplate{theorems}[unnumbered]
+\setbeamertemplate{footline}{}
+\setbeamertemplate{headline}{}
+\setbeamercolor{bluetext_color}{fg=blue}
+\newcommand{\bluetext}[1]{{\usebeamercolor[fg]{bluetext_color}#1}}
+
+\usepackage{beamerthemesplit}
+\usepackage{dsfont}
+\usepackage{pgfplots}
+
+\newcounter{sli}
+\newcommand{\slnumber}{\hfill {\color{lightgray} \refstepcounter{sli}\arabic{sli}}}
+
+\title[Несобственные интегралы]
+{Сходимость несобственных интегралов: признаки, методы исследования и приложения}
+\author{Курсовая работа \\
+    студента 212 группы М.~Е.~Чесакова}
+\institute{{Саратовский государственный университет} \\
+    имени~Н.~Г.~Чернышевского \\[5pt]
+Кафедра теории функций и стохастического анализа\\[5pt]
+Научный руководитель: д.~ф.-м.~н., доцент С.~П.~Сидоров
+}
+\date{2026 г.}
+
+\begin{document}
+
+\begin{frame}
+    \titlepage
+\end{frame}
+
+\begin{frame}
+    \frametitle{\normalsize Цель и задачи работы \slnumber}
+\textit{Цель работы:} систематизация признаков сходимости несобственных интегралов, освоение методов их исследования и вычисления, а также разбор содержательных примеров.
+\vspace{\baselineskip}
+
+\emph{Задачи:}
+\begin{itemize}
+  \item дать определение несобственных интегралов I и II рода;
+  \item сформулировать основные признаки сходимости;
+	\item изучить методы вычисления (включая сведение к специальным функциям);
+	\item разобрать примеры, в том числе условно сходящиеся интегралы.
+\end{itemize}
+
+\begin{block}{Актуальность}
+Несобственные интегралы играют важную роль в теории вероятностей, математической физике и анализе (интегралы Пуассона, Дирихле).
+\end{block}
+\end{frame}
+
+\begin{frame}
+\frametitle{\normalsize Основные понятия \slnumber}
+\textbf{Несобственный интеграл I рода} (бесконечный предел):
+\[
+\int_a^\infty f(x)\,dx = \lim_{b \to \infty}\int_a^b f(x)\,dx
+\]
+
+\textbf{Несобственный интеграл II рода} (особая точка \(b\)):
+\[
+\int_a^b f(x)\,dx = \lim_{b' \to b-0}\int_a^{b'} f(x)\,dx
+\]
+
+\begin{block}{Абсолютная и условная сходимость}
+Если сходится \(\int |f(x)|\,dx\), интеграл \textbf{абсолютно} сходящийся. Если \(\int f(x)\,dx\) сходится, а \(\int |f(x)|\,dx\) расходится, то интеграл \textbf{условно} сходящийся.
+\end{block}
+\end{frame}
+
+% === ТЕОРИЯ: СРАВНЕНИЕ ===
+\begin{frame}
+\frametitle{\normalsize Признаки сравнения \slnumber}
+
+\textbf{1. Обычное сравнение}
+Пусть \(0 \le f(x) \le g(x)\) при \(x \ge A\). Тогда:
+\begin{itemize}
+    \item из сходимости \(\int_a^\infty g(x)\,dx\) следует сходимость \(\int_a^\infty f(x)\,dx\);
+    \item из расходимости \(\int_a^\infty f(x)\,dx\) следует расходимость \(\int_a^\infty g(x)\,dx\).
+\end{itemize}
+
+\vspace{0.3cm}
+\textbf{2. Предельное сравнение}
+Пусть \(f(x) \ge 0\), \(g(x) > 0\) и существует предел
+\[
+\lim_{x\to+\infty}\frac{f(x)}{g(x)}=K,\qquad 0\le K\le+\infty.
+\]
+Тогда:
+\begin{itemize}
+    \item если \(K<+\infty\) и \(\int_a^\infty g\) сходится, то \(\int_a^\infty f\) сходится;
+    \item если \(K>0\) и \(\int_a^\infty g\) расходится, то \(\int_a^\infty f\) расходится.
+\end{itemize}
+
+\begin{block}{Важное следствие}
+При \(0<K<+\infty\) интегралы \(\int_a^\infty f\) и \(\int_a^\infty g\) сходятся или расходятся одновременно.
+\end{block}
+\end{frame}
+
+% === ПРИМЕР: СРАВНЕНИЕ ===
+\begin{frame}
+\frametitle{\normalsize Применение: Признак сравнения \slnumber}
+\begin{exampleblock}{Пример 1: Исследовать сходимость}
+\[
+\int_1^{+\infty} \frac{x+1}{x^3 - x + 5}\,dx
+\]
+\end{exampleblock}
+
+\textbf{Решение:} 
+Возьмем в качестве эталона функцию \(g(x) = \frac{1}{x^2}\).
+Найдем предел отношения при \(x \to +\infty\):
+\[
+\lim_{x \to +\infty} \frac{f(x)}{g(x)} = \lim_{x \to +\infty} \frac{\frac{x+1}{x^3 - x + 5}}{\frac{1}{x^2}} = \lim_{x \to +\infty} \frac{x^3+x^2}{x^3 - x + 5} = 1
+\]
+Предел конечен и отличен от нуля (\(K=1\)). Так как эталонный интеграл \(\int_1^\infty \frac{1}{x^2}\,dx\) сходится (\(\lambda=2 > 1\)), то по предельному признаку сравнения исходный интеграл \textbf{сходится}.
+\end{frame}
+
+% === ТЕОРИЯ: ДИРИХЛЕ И АБЕЛЬ ===
+\begin{frame}
+\frametitle{\normalsize Признаки Дирихле и Абеля \slnumber}
+\textbf{Признак Дирихле:} \\
+Пусть \(g(x)\) монотонна на \([a,+\infty)\) и \(g(x)\to0\) при \(x\to+\infty\). Если интегралы \(F(A)=\int_a^A f(x)\,dx\) ограничены (\(|F(A)| \le M\)), то \(\int_a^\infty f(x)g(x)\,dx\) сходится.
+
+\vspace{0.5cm}
+\textbf{Признак Абеля:} \\
+Пусть интеграл \(\int_a^\infty f(x)\,dx\) сходится, а функция \(g(x)\) монотонна и ограничена на \([a,+\infty)\). Тогда интеграл \(\int_a^\infty f(x)g(x)\,dx\) сходится.
+\end{frame}
+
+% === ПРИМЕР: ДИРИХЛЕ ===
+\begin{frame}
+\frametitle{\normalsize Применение: Признак Дирихле \slnumber}
+\begin{exampleblock}{Пример 2: Условная сходимость}
+\[
+\int_1^{+\infty} \frac{\sin x}{x}\,dx
+\]
+\end{exampleblock}
+
+\textbf{Решение:}
+\begin{itemize}
+    \item \(f(x) = \sin x\). Интеграл от нее ограничен: \(\left|\int_1^A \sin x\,dx\right| = |\cos 1 - \cos A| \le 2\).
+    \item \(g(x) = \frac{1}{x}\) монотонно убывает и \(\lim\limits_{x\to\infty} g(x) = 0\).
+\end{itemize}
+По признаку Дирихле интеграл \textbf{сходится}. 
+Однако, \(\int_1^\infty \frac{|\sin x|}{x}\,dx = +\infty\), следовательно, сходимость \textbf{условная}.
+\end{frame}
+
+% === ТЕОРИЯ: МЕТОДЫ ВЫЧИСЛЕНИЯ ===
+\begin{frame}
+\frametitle{\normalsize Методы вычисления \slnumber}
+\begin{enumerate}
+    \item \textbf{Интегрирование по частям} и замена переменной.
+    \item \textbf{Сведение к собственному интегралу} через первообразную (формула Ньютона-Лейбница).
+    \item \textbf{Специальные функции:} гамма-функция \(\Gamma(s)=\int_0^\infty x^{s-1}e^{-x}\,dx\) и бета-функция.
+    \item \textbf{Дифференцирование по параметру:} 
+    \[
+\frac{d}{d\alpha}\int_a^\infty f(x,\alpha)\,dx = \int_a^\infty \frac{\partial f}{\partial\alpha}(x,\alpha)\,dx
+\]
+\end{enumerate}
+\end{frame}
+
+% === ПРИМЕР: ПУАССОН ЧЕРЕЗ ГАММА-ФУНКЦИЮ ===
+\begin{frame}
+\frametitle{\normalsize Применение: Интеграл Пуассона \slnumber}
+\textbf{Связь со специальными функциями.} Известно, что \(\Gamma(1/2) = \sqrt{\pi}\).
+
+\begin{exampleblock}{Вычисление интеграла Пуассона через \(\Gamma\)-функцию}
+\[
+I = \int_0^{+\infty} e^{-x^2}\,dx
+\]
+Сделаем замену переменной \(t = x^2\). Тогда \(x = t^{1/2}\) и \(dx = \frac{1}{2} t^{-1/2} dt\):
+\[
+I = \int_0^{+\infty} e^{-t} \cdot \frac{1}{2} t^{-1/2}\,dt = \frac{1}{2} \int_0^{+\infty} t^{(1/2)-1} e^{-t}\,dt
+\]
+Полученный интеграл в точности равен \(\Gamma(1/2)\). Следовательно:
+\[
+I = \frac{1}{2} \Gamma\left(\frac{1}{2}\right) = \frac{\sqrt{\pi}}{2}
+\]
+\end{exampleblock}
+\end{frame}
+
+% === ПРИМЕР: ДИРИХЛЕ ЧЕРЕЗ ПАРАМЕТР ===
+\begin{frame}
+\frametitle{\normalsize Применение: Метод параметра \slnumber}
+\begin{exampleblock}{Вычисление интеграла Дирихле}
+Рассмотрим функцию:
+\[
+F(\alpha)=\int_0^{+\infty}e^{-\alpha x}\frac{\sin x}{x}\,dx, \qquad \alpha > 0
+\]
+Дифференцируем по параметру \(\alpha\):
+\[
+F'(\alpha)=-\int_0^{+\infty}e^{-\alpha x}\sin x\,dx = -\frac{1}{1+\alpha^2}
+\]
+Интегрируя, получаем \(F(\alpha) = -\arctan\alpha + C\). При \(\alpha\to+\infty\) \(F(\alpha)\to 0\), значит \(C=\pi/2\).
+Переходя к пределу при \(\alpha\to+0\), получаем:
+\[
+\int_0^{+\infty}\frac{\sin x}{x}\,dx = F(0) = \frac{\pi}{2}
+\]
+\end{exampleblock}
+\end{frame}
+
+\begin{frame}
+    \frametitle{\normalsize Основные результаты \slnumber}
+    \small
+\begin{enumerate}
+\item Систематизированы определения несобственных интегралов, разграничены абсолютная и условная сходимость.
+\item Изучен аппарат признаков сходимости. На примерах показано, как признаки сравнения и Дирихле позволяют исследовать интегралы без их прямого вычисления.
+\item Рассмотрены вычислительные методы. На примере интеграла Пуассона показана эффективность сведения к гамма-функции, а на примере интеграла Дирихле — метода дифференцирования по параметру.
+\item Проведён анализ классических примеров, встречающихся в теории вероятностей и математической физике.
+\end{enumerate}
+\end{frame}
+
+
+\begin{frame}
+	\begin{beamercolorbox}[ht=7ex, dp=4ex, center, shadow=true, rounded=true]{title in head/foot}
+	\centerline{\LARGE{СПАСИБО ЗА ВНИМАНИЕ!}}
+	\end{beamercolorbox}
+\end{frame}
+
+\end{document}
