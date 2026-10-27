@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.17)  25 OCT 2026 14:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.17)  27 OCT 2026 19:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -620,26 +620,26 @@ LaTeX Warning: Unused global option(s):
 (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -676,7 +676,7 @@ LaTeX Font Info:    ... okay on input line 65.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: Option `justification=RaggedRight' requires the `ragged2e' package on input line 65.
+Package caption Info: Option `justification=RaggedRight' requires the `ragged2e' package on input line 66.
 (C:\Program Files\MiKTeX\tex/latex/ragged2e\ragged2e.sty
 Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 \CenteringLeftskip=\skip70
@@ -719,8 +719,8 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \th on input line 65.
-Package hyperref Info: Link coloring OFF on input line 65.
+LaTeX Info: Redefining \th on input line 66.
+Package hyperref Info: Link coloring OFF on input line 66.
  (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -745,106 +745,97 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [4
 
-] [5] [6
-
 ]
-Overfull \hbox (2.93068pt too wide) in paragraph at lines 277--278
+Overfull \hbox (3.23187pt too wide) in paragraph at lines 201--202
+[]\T2A/cmr/bx/n/14.4 Определение 3. \T2A/cmr/m/it/14.4 Несоб-ствен-ный ин-те-грал $[][] \OML/cmm/m/it/14.4 f\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 x\OT1/cmr/m/n/14.4 ) d\OML/cmm/m/it/14.4 x$ \T2A/cmr/m/it/14.4 на-зы-ва-ет-ся аб-со-лют-
+ []
+
+[5] [6] [7
+
+] [8]
+Overfull \hbox (2.93068pt too wide) in paragraph at lines 319--320
 []\T2A/cmr/bx/n/14.4 Теорема 7 \T2A/cmr/m/n/14.4 (при-знак Абе-ля)\T2A/cmr/bx/n/14.4 . \T2A/cmr/m/it/14.4 Пусть ин-те-грал $[][] \OML/cmm/m/it/14.4 f\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 x\OT1/cmr/m/n/14.4 ) d\OML/cmm/m/it/14.4 x$ \T2A/cmr/m/it/14.4 схо-дит-ся, а функ-
  []
 
-[7] [8]
-Overfull \hbox (19.42723pt too wide) in paragraph at lines 360--361
-[]\T2A/cmr/m/n/14.4 Разобьјм ин-те-грал на два: $[][]$ и $[][]$. На $\OT1/cmr/m/n/14.4 (0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 1]$ \T2A/cmr/m/n/14.4 име-ем $\OML/cmm/m/it/14.4 x[]e[] \U/msa/m/n/14.4 6
+[9] [10] [11
+
+] [12] [13]
+Overfull \hbox (0.18327pt too wide) in paragraph at lines 479--483
+\T2A/cmr/m/it/14.4 Обоснование за-кон-но-сти диф-фе-рен-ци-ро-ва-ния: про-из-вод-ная подын-те-граль-ной
  []
 
-
-Overfull \hbox (3.19934pt too wide) in paragraph at lines 360--361
-\T2A/cmr/m/n/14.4 быст-рее лю-бой сте-пе-ни $\OML/cmm/m/it/14.4 x$\T2A/cmr/m/n/14.4 , и ин-те-грал схо-дит-ся при всех $\OML/cmm/m/it/14.4 s$ \T2A/cmr/m/n/14.4 (ср. [[]13[], гл. XVII, џ3]).
- []
-
-[9
-
-] [10]
+[14]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 395.
+(hyperref)                removing `math shift' on input line 500.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\intop' on input line 395.
+(hyperref)                removing `\intop' on input line 500.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\ilimits@' on input line 395.
+(hyperref)                removing `\ilimits@' on input line 500.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\limits' on input line 395.
+(hyperref)                removing `subscript' on input line 500.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 395.
+(hyperref)                removing `superscript' on input line 500.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 395.
+(hyperref)                removing `\infty' on input line 500.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\infty' on input line 395.
+(hyperref)                removing `superscript' on input line 500.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 395.
+(hyperref)                removing `superscript' on input line 500.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 395.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 395.
+(hyperref)                removing `\leavevmode@ifvmode' on input line 500.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.28499pt
-(hyperref)                removed on input line 395.
+(hyperref)                removed on input line 500.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 395.
+(hyperref)                removing `math shift' on input line 500.
 
-[11
+[15
 
-] [12
+] [16] [17] [18] [19
 
-]
-Underfull \hbox (badness 4132) in paragraph at lines 454--455
-[]\T2A/cmr/m/n/14.4 БочаровП.П. Тео-рия ве-ро-ят-но-стей. Ма-те-ма-ти-че-ская ста-ти-сти-ка /
- []
+] [20
 
-[13
-
-] [14] (main.aux)
+] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B73AC1E9EB4B13CA035333748DAFFCB2;6911.
+(rerunfilecheck)             Checksum: CF443E8DA5C26BF4B2F7339286E7A020;7499.
  ) 
 Here is how much of TeX's memory you used:
- 15850 strings out of 474486
- 250955 string characters out of 5753570
- 1935542 words of memory out of 5000000
- 37829 multiletter control sequences out of 15000+600000
- 563166 words of font info for 50 fonts, out of 8000000 for 9000
+ 15856 strings out of 474486
+ 251183 string characters out of 5753570
+ 1934542 words of memory out of 5000000
+ 37823 multiletter control sequences out of 15000+600000
+ 564769 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,79p,1149b,727s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\chesm\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1440.pk> <C:\Users\chesm\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\chesm\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (14 pages, 250497 bytes).
+ 75i,8n,79p,1192b,720s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\chesm\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1440.pk> <C:\Users\chesm\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\chesm\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (20 pages, 273703 bytes).
 PDF statistics:
- 532 PDF objects out of 1000 (max. 8388607)
- 77 named destinations out of 1000 (max. 500000)
- 181 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 555 PDF objects out of 1000 (max. 8388607)
+ 85 named destinations out of 1000 (max. 500000)
+ 197 words of extra memory for PDF output out of 10000 (max. 10000000)
 
