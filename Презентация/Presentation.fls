@@ -1,6 +1,6 @@
-PWD d:\Максим\Обучение\СГУ\НИР+курсовая\Курсовая работа\Аналитические методы в теории телетрафика\Презентация
+PWD d:\Максим\Обучение\СГУ\Практики+курсовая\Мех-мат\Курсовая работа\Сходимость несобственных интегралов\Презентация
 INPUT C:\Users\chesm\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT d:\Максим\Обучение\СГУ\НИР+курсовая\Курсовая работа\Аналитические методы в теории телетрафика\Презентация\Presentation.tex
+INPUT d:\Максим\Обучение\СГУ\Практики+курсовая\Мех-мат\Курсовая работа\Сходимость несобственных интегралов\Презентация\Presentation.tex
 OUTPUT Presentation.log
 INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamer.cls
 INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamer.cls
@@ -57,10 +57,10 @@ INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.misc.code.te
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.integerarithmetics.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathcalc.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfloat.code.tex
-INPUT C:\Program Files\MiKTeX\tex\latex\base\size12.clo
-INPUT C:\Program Files\MiKTeX\tex\latex\base\size12.clo
-INPUT C:\Program Files\MiKTeX\tex\latex\base\size12.clo
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Program Files\MiKTeX\tex\latex\base\size11.clo
+INPUT C:\Program Files\MiKTeX\tex\latex\base\size11.clo
+INPUT C:\Program Files\MiKTeX\tex\latex\base\size11.clo
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
 INPUT C:\Program Files\MiKTeX\tex\latex\pgf\basiclayer\pgfcore.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\pgf\basiclayer\pgfcore.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
@@ -185,6 +185,16 @@ INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amssymb.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amssymb.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amsfonts.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\sansmathaccent\sansmathaccent.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\sansmathaccent\sansmathaccent.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\sansmathaccent\sansmathaccent.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\koma-script\scrlfile.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\koma-script\scrlfile.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\koma-script\scrlfile.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\koma-script\scrlfile-hook.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\koma-script\scrlfile-hook.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\koma-script\scrlogo.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\koma-script\scrlogo.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerbasetranslator.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerbasetranslator.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\translator\translator.sty
@@ -246,7 +256,7 @@ INPUT C:\Program Files\MiKTeX\tex\latex\amscls\amsthm.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\amscls\amsthm.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerbasethemes.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerbasethemes.sty
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmss12.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmss10.tfm
 INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerthemedefault.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerthemedefault.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerfontthemedefault.sty
@@ -276,26 +286,20 @@ INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamericononline.20.pdf
 INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamericononline.20.pdf
 INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerouterthemedefault.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerouterthemedefault.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerthemeMadrid.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerthemeMadrid.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamercolorthemewhale.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamercolorthemewhale.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamercolorthemeorchid.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamercolorthemeorchid.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerinnerthemerounded.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerinnerthemerounded.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerouterthemeinfolines.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerouterthemeinfolines.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerfontthemeserif.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerfontthemeserif.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerinnerthemecircles.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerinnerthemecircles.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\cmap\cmap.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\cmap\cmap.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\base\inputenc.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\base\inputenc.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\base\fontenc.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\cyrillic\t2aenc.def
+INPUT C:\Program Files\MiKTeX\tex\latex\cyrillic\t2aenc.def
+INPUT C:\Program Files\MiKTeX\tex\latex\cyrillic\t2aenc.def
+INPUT C:\Program Files\MiKTeX\tex\latex\base\t2aenc.dfu
+INPUT C:\Program Files\MiKTeX\tex\latex\base\t2aenc.dfu
+INPUT C:\Program Files\MiKTeX\tex\latex\base\t2aenc.dfu
+INPUT C:\Program Files\MiKTeX\tex\latex\cyrillic\t2acmss.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\cyrillic\t2acmss.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\cyrillic\t2acmss.fd
+INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\lass1095.tfm
+INPUT C:\Program Files\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\inputenc.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\babel\babel.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\babel\babel.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\babel\txtbabel.def
@@ -308,10 +312,6 @@ INPUT C:\Program Files\MiKTeX\tex\latex\babel-english\english.ldf
 INPUT C:\Program Files\MiKTeX\tex\latex\babel-russian\russianb.ldf
 INPUT C:\Program Files\MiKTeX\tex\latex\babel-russian\russianb.ldf
 INPUT C:\Program Files\MiKTeX\tex\latex\babel-russian\russianb.ldf
-INPUT C:\Program Files\MiKTeX\tex\latex\cyrillic\t2aenc.def
-INPUT C:\Program Files\MiKTeX\tex\latex\base\t2aenc.dfu
-INPUT C:\Program Files\MiKTeX\tex\latex\base\t2aenc.dfu
-INPUT C:\Program Files\MiKTeX\tex\latex\base\t2aenc.dfu
 INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\ru\babel-russian.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\ru\babel-russian.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\ru\babel-russian.tex
@@ -320,40 +320,116 @@ INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\en\babel-english.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\en\babel-english.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\en\babel-english.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\en\babel-en.ini
-INPUT C:\Program Files\MiKTeX\tex\latex\t2\mathtext.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\t2\mathtext.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\jknappen\mathrsfs.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\jknappen\mathrsfs.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amscd.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amscd.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\onlyamsmath\onlyamsmath.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\onlyamsmath\onlyamsmath.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tools\bm.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tools\bm.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tools\indentfirst.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tools\indentfirst.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\fancyvrb\fancyvrb.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\fancyvrb\fancyvrb.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\caption\caption.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\caption\caption.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\caption\caption3.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\caption\caption3.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\caption\caption-beamer.sto
-INPUT C:\Program Files\MiKTeX\tex\latex\caption\caption-beamer.sto
-INPUT C:\Program Files\MiKTeX\tex\latex\caption\caption-beamer.sto
+INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerthemeWarsaw.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerthemeWarsaw.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerinnerthemerounded.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerinnerthemerounded.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerouterthemeshadow.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerouterthemeshadow.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerouterthemesplit.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerouterthemesplit.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamercolorthemeorchid.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamercolorthemeorchid.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamercolorthemewhale.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamercolorthemewhale.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerfontthemestructurebold.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerfontthemestructurebold.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerfontthemeserif.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerfontthemeserif.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerthemesplit.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerthemesplit.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\doublestroke\dsfont.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\doublestroke\dsfont.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgfplots\pgfplots.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgfplots\pgfplots.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplots.revision.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplots.revision.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplots.revision.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-luatex.def
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-luatex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\frontendlayer\tikz.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\frontendlayer\tikz.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\basiclayer\pgf.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\basiclayer\pgf.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\modules\pgfmoduleshapes.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\modules\pgfmoduleplot.code.tex
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\utilities\pgffor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\utilities\pgffor.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\modules\pgfmodulematrix.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplots.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplotscore.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\sys\pgfplotssysgeneric.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\libs\pgfplotslibrary.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldpgfsupp_loader.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryfpu.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryfpu.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryfpu.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldpgfsupp_pgfutil-common-lists.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\util\pgfplotsutil.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\liststructure\pgfplotsliststructure.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\liststructure\pgfplotsliststructureext.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\liststructure\pgfplotsarray.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\liststructure\pgfplotsmatrix.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\numtable\pgfplotstableshared.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\liststructure\pgfplotsdeque.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\util\pgfplotsbinary.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\util\pgfplotsbinary.data.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\util\pgfplotsutil.verb.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\libs\pgflibrarypgfplots.surfshading.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\sys\pgflibrarypgfplots.surfshading.pgfsys-pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\sys\pgflibrarypgfplots.surfshading.pgfsys-pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\util\pgfplotscolormap.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\util\pgfplotscolor.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplotsstackedplots.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplotsplothandlers.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplotsmeshplothandler.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplotsmeshplotimage.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplots.scaling.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplotscoordprocessing.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplots.errorbars.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplots.markers.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplotsticks.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplots.paths.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\modules\pgfmoduledecorations.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.pathmorphing.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.pathmorphing.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.pathmorphing.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.pathmorphing.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.pathreplacing.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.pathreplacing.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.pathreplacing.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.pathreplacing.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\libs\tikzlibrarypgfplots.contourlua.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\libs\tikzlibrarypgfplots.contourlua.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryplotmarks.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryplotmarks.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryplotmarks.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryplotmarks.code.tex
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT .\Presentation.aux
 INPUT .\Presentation.aux
 INPUT Presentation.aux
-INPUT C:\Program Files\MiKTeX\tex\latex\cyrillic\t2acmr.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\cyrillic\t2acmr.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\cyrillic\t2acmr.fd
-INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\larm1200.tfm
-INPUT C:\Program Files\MiKTeX\tex\latex\cmap\t2a.cmap
-INPUT C:\Program Files\MiKTeX\tex\latex\cmap\t2a.cmap
-INPUT C:\Program Files\MiKTeX\tex\latex\cmap\t2a.cmap
 OUTPUT Presentation.aux
+INPUT C:\Program Files\MiKTeX\tex\latex\cyrillic\t2acmr.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\cyrillic\t2acmr.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\cyrillic\t2acmr.fd
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -362,7 +438,6 @@ INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\color.sty
 INPUT .\Presentation.out
 INPUT .\Presentation.out
 INPUT Presentation.out
@@ -391,34 +466,23 @@ INPUT C:\Program Files\MiKTeX\tex\latex\translator\translator-theorem-dictionary
 INPUT .\Presentation.nav
 INPUT .\Presentation.nav
 INPUT Presentation.nav
-INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\larm0600.tfm
-INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\larm0800.tfm
-INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\larm1000.tfm
-INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\larm1728.tfm
-INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\larm1440.tfm
-INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\lati1200.tfm
+INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\lass0600.tfm
+INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\lasx0600.tfm
+INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\lass1440.tfm
+INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\lasx0500.tfm
+INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\lass0500.tfm
 INPUT C:\ProgramData\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\lasi1095.tfm
+INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\lasx1095.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
-INPUT C:\Program Files\MiKTeX\tex\latex\cmap\ot1.cmap
-INPUT C:\Program Files\MiKTeX\tex\latex\cmap\ot1.cmap
-INPUT C:\Program Files\MiKTeX\tex\latex\cmap\ot1.cmap
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
-INPUT C:\Program Files\MiKTeX\tex\latex\mmap\oml.cmap
-INPUT C:\Program Files\MiKTeX\tex\latex\mmap\oml.cmap
-INPUT C:\Program Files\MiKTeX\tex\latex\mmap\oml.cmap
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Program Files\MiKTeX\tex\latex\mmap\oms.cmap
-INPUT C:\Program Files\MiKTeX\tex\latex\mmap\oms.cmap
-INPUT C:\Program Files\MiKTeX\tex\latex\mmap\oms.cmap
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
-INPUT C:\Program Files\MiKTeX\tex\latex\mmap\omx.cmap
-INPUT C:\Program Files\MiKTeX\tex\latex\mmap\omx.cmap
-INPUT C:\Program Files\MiKTeX\tex\latex\mmap\omx.cmap
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsa.fd
@@ -433,100 +497,46 @@ INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsb.fd
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT C:\Program Files\MiKTeX\tex\latex\jknappen\ursfs.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\jknappen\ursfs.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\jknappen\ursfs.fd
-INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
-INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
-INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs5.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx8.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx6.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmib10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmmib8.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmmib6.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbsy10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy8.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy6.tfm
-INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\larm0500.tfm
-INPUT .\ris4.png
-INPUT .\ris4.png
-INPUT .\ris4.png
-INPUT .\ris4.png
-INPUT .\ris4.png
-INPUT .\ris4.png
-INPUT .\ris4.png
-INPUT .\ris11.png
-INPUT .\ris11.png
-INPUT .\ris11.png
-INPUT .\ris11.png
-INPUT .\ris11.png
-INPUT .\ris11.png
-INPUT .\ris11.png
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
-INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmib10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmib10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbsy10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbsy10.tfm
-INPUT .\ris12.png
-INPUT .\ris12.png
-INPUT .\ris12.png
-INPUT .\ris12.png
-INPUT .\ris12.png
-INPUT .\ris12.png
-INPUT .\ris12.png
-INPUT .\ris13_new_new.png
-INPUT .\ris13_new_new.png
-INPUT .\ris13_new_new.png
-INPUT .\ris13_new_new.png
-INPUT .\ris13_new_new.png
-INPUT .\ris13_new_new.png
-INPUT .\ris13_new_new.png
-INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\lacc1728.tfm
+INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\lass1000.tfm
+INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\lasi1000.tfm
+INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\lass1728.tfm
 OUTPUT Presentation.nav
 OUTPUT Presentation.toc
 OUTPUT Presentation.snm
 INPUT Presentation.aux
 INPUT .\Presentation.out
 INPUT .\Presentation.out
-INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\lacc1728.pk
-INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\lacc1728.pk
-INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm0600.pk
-INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm0600.pk
-INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1728.pk
-INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1728.pk
-INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\lati1200.pk
-INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\lati1200.pk
-INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1200.pk
-INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1200.pk
-INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1440.pk
-INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1440.pk
-INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1000.pk
-INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1000.pk
+INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\lass1728.pk
+INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\lass1728.pk
+INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\lasi1000.pk
+INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\lasi1000.pk
+INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\lass1000.pk
+INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\lass1000.pk
+INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\lasx1095.pk
+INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\lasx1095.pk
+INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\lasx0600.pk
+INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\lasx0600.pk
+INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\lasi1095.pk
+INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\lasi1095.pk
+INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\lass1095.pk
+INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\lass1095.pk
+INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\lass1440.pk
+INPUT C:\Users\chesm\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\lass1440.pk
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr6.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr6.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy6.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy6.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
